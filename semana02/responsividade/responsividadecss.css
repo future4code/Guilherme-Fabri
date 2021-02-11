@@ -1,0 +1,60 @@
+* {
+
+
+
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 420px) {
+    #main-container {
+        color: red;
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+
+    
+}
+
+
+div {
+    border: 1px solid black;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main-container {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 3px; 
+}
+
+
+#first-block {
+    background-color: red;
+}
+
+.blue-block {
+    background-color: blue;
+}
+
+.yellow-block {
+    background-color: yellow;
+}
+
+.green-block {
+    background-color: green;
+}
+
+.black-block {
+    background-color: black;
+    color: white;
+}
+
+.white-block {
+    background-color: white;
+}
