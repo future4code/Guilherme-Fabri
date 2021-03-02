@@ -4,3 +4,5 @@
 
 //exercicio2
 //Será impresso três vezes o valor igual a 10 para os valores de A, B e C
+
+console.log("1.", "Hello World" + "How are you?")
