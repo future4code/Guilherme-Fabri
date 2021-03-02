@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 60px;
+    margin-bottom: 8px;
+}
+
+footer{
+    display: flex;
+    background-color: orangered;
+    align-items: center;
+    justify-items: center;
+    height: 60px;
+    justify-content: center;
+
+}
+
+#mid{   
+    height: 450px;
+}
