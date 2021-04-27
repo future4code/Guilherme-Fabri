@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendário</title>
+  <script src='index.js' defer></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <header>
+    <form action="">
+      <label for="tarefa">Nova Tarefa:</label>
+      <input type="text" id="tarefa">
+      <select name="dias-semana" id="dias-semana">
+        <option value="Domingo">Domingo</option>
+        <option value="Segunda">Segunda</option>
+        <option value="Terça">Terça</option>
+        <option value="Quarta">Quarta</option>
+        <option value="Quinta">Quinta</option>
+        <option value="Sexta">Sexta</option>
+        <option value="Sábado">Sábado</option>
+      </select>
+    </form>
+
+    <button onclick="criarTarefa()">Criar Tarefa</button>
+
+  </header>
+  <section>
+    <div class="semana">
+      <h3>Domingo</h3>
+      <div id="Domingo"></div>
+    </div>
+
+    <div class="semana">
+      <h3>Segunda</h3>
+      <div id="Segunda"></div>
+    </div>
+
+    <div class="semana">
+      <h3>Terça</h3>
+      <div id="Terça"></div>
+    </div>
+
+    <div class="semana">
+      <h3>Quarta</h3>
+      <div id="Quarta"></div>
+    </div>
+
+    <div class="semana">
+      <h3>Quinta</h3>
+      <div id="Quinta"></div>
+    </div>
+
+    <div class="semana">
+      <h3>Sexta</h3>
+      <div id="Sexta"></div>
+    </div>
+
+    <div class="semana">
+      <h3>Sábado</h3>
+      <div id="Sábado"></div>
+    </div>
+  </section>
+
+</body>
+</html>
