@@ -174,17 +174,12 @@ console.log('Numero é par: ', verificaParidade(3)) */
 console.log('Numero é par: ', verificaParidade(1))*/
 
 //c)
-
-function verificaParidade(numero) {
-  return numero % 2 === 0
-}
-
 const array = [10,23,45,78,90,52,35,67,84,22];
 
 function calculaNumerosPares(arrayDeNumeros) {
   let numerosPares = [];
   for(const numero of arrayDeNumeros) {
-    if(verificaParidade(numero)) {
+    if(numero % 2 === 0) {
       numerosPares.push(numero)
     }
   }
@@ -195,14 +190,3 @@ console.log('Quantidade de números pares: ', calculaNumerosPares(array))
 
 //d) 
 
-function calculaNumerosPares(arrayDeNumeros) {
-  let numerosPares = [];
-  for(const numero of arrayDeNumeros) {
-    if(ver) {
-      numerosPares.push(numero)
-    }
-  }
-  return numerosPares.length
-}
-
-console.log('Quantidade de números pares: ', calculaNumerosPares(array))
