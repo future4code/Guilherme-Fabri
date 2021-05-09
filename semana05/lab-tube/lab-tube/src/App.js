@@ -5,13 +5,13 @@ import ItensLista from './components/ItensLista';
 
 export default function App() {
 
-  const titulo = "Título do Vídeo!!"
+const titulo = "Título do Vídeo !!"
 
-  function reproduzVideo() {
-    alert("O vídeo está sendo reproduzido")
-}
+const name = ""
 
-  return (
+
+
+return (
     <div className="tela-inteira">
     <header>
         <h1>Lab Tube</h1>
@@ -33,14 +33,14 @@ export default function App() {
         </nav>
         
         <section className="painel-de-videos">
-            <CardVideo textocard={"texto do video1"} imagem={"https://picsum.photos/200/200?a=1"}/>
-            <CardVideo textocard={"texto do video2"} imagem={"https://picsum.photos/200/200?a=2"}/>
-            <CardVideo textocard={"texto do video3"} imagem={"https://picsum.photos/200/200?a=3"}/>
-            <CardVideo textocard={"texto do video4"} imagem={"https://picsum.photos/200/200?a=4"}/>
-            <CardVideo textocard={"texto do video5"} imagem={"https://picsum.photos/200/200?a=5"}/>
-            <CardVideo textocard={"texto do video6"} imagem={"https://picsum.photos/200/200?a=6"}/>
-            <CardVideo textocard={"texto do video7"} imagem={"https://picsum.photos/200/200?a=7"}/>
-            <CardVideo textocard={"texto do video8"} imagem={"https://picsum.photos/200/200?a=8"}/>
+            <CardVideo textocard={titulo} imagem={"https://picsum.photos/200/180?a=1"}/>
+            <CardVideo textocard={"texto do video 2"} imagem={"https://picsum.photos/200/180?a=3"}/>
+            <CardVideo textocard={"texto do video 3"} imagem={"https://picsum.photos/200/180?a=4"}/>
+            <CardVideo textocard={"texto do video 4"} imagem={"https://picsum.photos/200/180?a=2"}/>
+            <CardVideo textocard={"texto do video 5"} imagem={"https://picsum.photos/200/180?a=5"}/>
+            <CardVideo textocard={"texto do video 6"} imagem={"https://picsum.photos/200/180?a=6"}/>
+            <CardVideo textocard={"texto do video 7"} imagem={"https://picsum.photos/200/180?a=7"}/>
+            <CardVideo textocard={"texto do video 8"} imagem={"https://picsum.photos/200/180?a=8"}/>
         </section>
     </main>
 

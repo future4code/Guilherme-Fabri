@@ -1,10 +1,6 @@
 import React from "react";
 import "../App.css";
 
-function reproduzVideo() {
-  alert("O vídeo está sendo reproduzido")
-}
-
 export function CardVideo(props) {
   return(
     <div 
