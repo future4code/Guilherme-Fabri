@@ -1,16 +1,14 @@
 import React from "react";
 import "../App.css";
 
-function reproduzVideo() {
-  alert("O vídeo está sendo reproduzido")
-}
+
 
 export function CardVideo(props) {
   return(
-    <div 
+      <div 
       className="card" 
-      onClick={reproduzVideo}
-    >
+      onClick={() => props.funcaoClick(props.textocard)}
+      >
       <img src={props.imagem} alt="" />
       <div
       className="campotexto">

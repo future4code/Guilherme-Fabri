@@ -1,17 +1,19 @@
 import React from "react";
 import "../App.css";
+import styled from "styled-components";
 
-function abriuMenu() {
-  alert("O menu esta aparecendo")
-}
-
-const menux = 
+const ContainerBotao = styled.div`
+padding: 5px;
+border: 2px solid red;
+margin: 5px;
+`
 
 export default function ItensLista(props) {
   return(
-    <div className="botao-menu"
-    onClick={abriuMenu}>
+    <ContainerBotao
+      onClick={() => props.funcaoClickPainel(props.itemlista)}
+    >
       <p>{props.itemlista}</p>
-    </div>
+    </ContainerBotao>
   )
 }
