@@ -1,6 +1,7 @@
 import React from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 import Post from './components/Post/Post';
+import styled from "styled-components";
 
 const MainContainer = styled.div`
   display: flex;
